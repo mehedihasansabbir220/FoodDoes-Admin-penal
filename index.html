@@ -451,7 +451,7 @@
           <li class="sidebar-list">
             <a class="nav-link px-3 sidebar-link" data-name="merchant" data-bs-toggle="collapse" href="#dashboard">
               <span class="me-2"><i class="bi bi-grid-1x2-fill"></i></span>
-              <span>Merchants</span>
+              <span>Food Categories</span>
               <span class="ms-auto">
                 <span class="right-icon">
                   <i class="bi bi-chevron-down"></i>
@@ -463,52 +463,63 @@
                 <li class="sidebar-sub-list">
                   <a href="#" class="nav-link px-3 sidebar-sub-link">
                     <i class="bi bi-dash "></i>
-                    <span>Add Merchants</span>
+                    <span>Add New Category</span>
                   </a>
                 </li>
 
                 <li class="sidebar-sub-list">
                   <a href="#" class="nav-link px-3 sidebar-sub-link">
                     <i class="bi bi-dash "></i>
-                    <span>All Merchants</span>
-                  </a>
-                </li>
-
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Pending Merchants</span>
-                  </a>
-                </li>
-
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Rejected Merchants</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>All Restaurants</span>
+                    <span>Show Category list </span>
                   </a>
                 </li>
               </ul>
             </div>
           </li>
 
-          <!-- Orders item -->
+          <!-- Food item -->
 
           <li class="sidebar-list">
             <a class="nav-link px-3 sidebar-link" data-name="orders" data-bs-toggle="collapse" href="#Orders">
               <span class="me-2"><i class="bi bi-clipboard-data"></i></span>
-              <span>Orders</span>
+              <span>Food</span>
               <span class="right-icon ms-auto">
                 <i class="bi bi-chevron-down"></i>
               </span>
               </span>
             </a>
             <div class="collapse" id="Orders">
+              <ul class="navbar-nav ps-3">
+                <li class="sidebar-sub-list">
+                  <a href="#" class="nav-link px-3 sidebar-sub-link">
+                    <i class="bi bi-dash "></i>
+                    <span>Add new food item</span>
+                  </a>
+                </li>
+                <li class="sidebar-sub-list">
+                  <a href="#" class="nav-link px-3 sidebar-sub-link">
+                    <i class="bi bi-dash "></i>
+                    <span>Show All food</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+
+
+          <!-- Order Item -->
+          <li class="sidebar-list">
+            <a class="nav-link px-3 sidebar-link" data-name="delivery" data-bs-toggle="collapse" href="#delivery">
+              <span class="me-2"><i class="bi bi-people-fill"></i></span>
+              <span>Order</span>
+              <span class="ms-auto">
+                <span class="right-icon">
+                  <i class="bi bi-chevron-down"></i>
+                </span>
+              </span>
+            </a>
+            <div class="collapse" id="delivery">
               <ul class="navbar-nav ps-3">
                 <li class="sidebar-sub-list">
                   <a href="#" class="nav-link px-3 sidebar-sub-link">
@@ -525,7 +536,7 @@
                 <li class="sidebar-sub-list">
                   <a href="#" class="nav-link px-3 sidebar-sub-link">
                     <i class="bi bi-dash "></i>
-                    <span>Order Delivery in <span class="ms-4">Progress</span></span>
+                    <span>Order Delivery in Progress</span>
                   </a>
                 </li>
                 <li class="sidebar-sub-list">
@@ -555,13 +566,81 @@
               </ul>
             </div>
           </li>
-
-
-
-          <!-- Delivery Main-->
+          <!-- Account  -->
           <li class="sidebar-list">
-            <a class="nav-link px-3 sidebar-link" data-name="delivery" data-bs-toggle="collapse" href="#delivery">
-              <span class="me-2"><i class="bi bi-people-fill"></i></span>
+            <a class="nav-link px-3 sidebar-link" data-name="account" data-bs-toggle="collapse" href="#account">
+              <span class="me-2"><i class="bi bi-person-badge"></i></span>
+              <span>Accounts</span>
+              <span class="ms-auto">
+                <span class="right-icon">
+                  <i class="bi bi-chevron-down"></i>
+                </span>
+              </span>
+            </a>
+            <div class="collapse" id="account">
+              <ul class="navbar-nav ps-3">
+                <li class="sidebar-sub-list">
+                  <a href="#" class="nav-link px-3 sidebar-sub-link">
+                    <i class="bi bi-dash "></i>
+                    <span>Account Overview</span>
+                  </a>
+                </li>
+                <li class="sidebar-sub-list">
+                  <a href="#" class="nav-link px-3 sidebar-sub-link">
+                    <i class="bi bi-dash "></i>
+                    <span>Request Payment</span>
+                  </a>
+                </li>
+                <li class="sidebar-sub-list">
+                  <a href="#" class="nav-link px-3 sidebar-sub-link">
+                    <i class="bi bi-dash "></i>
+                    <span>Add Invoice</span>
+                  </a>
+                </li>
+                <li class="sidebar-sub-list">
+                  <a href="#" class="nav-link px-3 sidebar-sub-link">
+                    <i class="bi bi-dash "></i>
+                    <span>All Invoice</span>
+                  </a>
+                </li>
+                <li class="sidebar-sub-list">
+                  <a href="#" class="nav-link px-3 sidebar-sub-link">
+                    <i class="bi bi-dash "></i>
+                    <span>Payment History</span>
+                  </a>
+                </li>
+                <li class="sidebar-sub-list">
+                  <a href="#" class="nav-link px-3 sidebar-sub-link">
+                    <i class="bi bi-dash "></i>
+                    <span>Income</span>
+                  </a>
+                </li>
+                <li class="sidebar-sub-list">
+                  <a href="#" class="nav-link px-3 sidebar-sub-link">
+                    <i class="bi bi-dash "></i>
+                    <span>Expenses</span>
+                  </a>
+                </li>
+                <li class="sidebar-sub-list">
+                  <a href="#" class="nav-link px-3 sidebar-sub-link">
+                    <i class="bi bi-dash "></i>
+                    <span>Check all due payment</span>
+                  </a>
+                </li>
+                <li class="sidebar-sub-list">
+                  <a href="#" class="nav-link px-3 sidebar-sub-link">
+                    <i class="bi bi-dash "></i>
+                    <span>Check all received payment</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <!--  Delivery Man-->
+          <li class="sidebar-list">
+            <a class="nav-link px-3 sidebar-link" data-name="area" data-bs-toggle="collapse" href="#delivery-area">
+              <span class="me-2"><i class="bi bi-geo-alt"></i></span>
               <span>Delivery Man</span>
               <span class="ms-auto">
                 <span class="right-icon">
@@ -569,7 +648,7 @@
                 </span>
               </span>
             </a>
-            <div class="collapse" id="delivery">
+            <div class="collapse" id="delivery-area">
               <ul class="navbar-nav ps-3">
                 <li class="sidebar-sub-list">
                   <a href="#" class="nav-link px-3 sidebar-sub-link">
@@ -595,212 +674,10 @@
                     <span>All Delivery Man</span>
                   </a>
                 </li>
-              </ul>
-            </div>
-          </li>
-          <!-- Account  -->
-          <li class="sidebar-list">
-            <a class="nav-link px-3 sidebar-link" data-name="account" data-bs-toggle="collapse" href="#account">
-              <span class="me-2"><i class="bi bi-person-badge"></i></span>
-              <span>Accounts</span>
-              <span class="ms-auto">
-                <span class="right-icon">
-                  <i class="bi bi-chevron-down"></i>
-                </span>
-              </span>
-            </a>
-            <div class="collapse" id="account">
-              <ul class="navbar-nav ps-3">
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Account Overview</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Make Payment</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Add Invoice</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>All Invoice</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Unpaid Parcel</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Paid Parcel</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Payment History</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Income</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Expenses</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Make Salary</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-
-          <!--  Delivery area-->
-          <li class="sidebar-list">
-            <a class="nav-link px-3 sidebar-link" data-name="area" data-bs-toggle="collapse" href="#delivery-area">
-              <span class="me-2"><i class="bi bi-geo-alt"></i></span>
-              <span>Delivery Area</span>
-              <span class="ms-auto">
-                <span class="right-icon">
-                  <i class="bi bi-chevron-down"></i>
-                </span>
-              </span>
-            </a>
-            <div class="collapse" id="delivery-area">
-              <ul class="navbar-nav ps-3">
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Add Area</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>View All Area</span>
-                  </a>
-                </li>
 
               </ul>
             </div>
           </li>
-
-          <!--  coupon-->
-          <li class="sidebar-list">
-            <a class="nav-link px-3 sidebar-link" data-name="coupon" data-bs-toggle="collapse" href="#coupon">
-              <span class="me-2"><i class="bi bi-file-earmark-code-fill"></i></span>
-              <span>Coupon</span>
-              <span class="ms-auto">
-                <span class="right-icon">
-                  <i class="bi bi-chevron-down"></i>
-                </span>
-              </span>
-            </a>
-            <div class="collapse" id="coupon">
-              <ul class="navbar-nav ps-3">
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Add Coupon</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>All Coupon</span>
-                  </a>
-                </li>
-
-              </ul>
-            </div>
-          </li>
-
-          <!--  support-->
-          <li class="sidebar-list">
-            <a class="nav-link px-3 sidebar-link" data-name="support" data-bs-toggle="collapse" href="#support">
-              <span class="me-2"><i class="bi bi-question-diamond"></i></span>
-              <span>Support</span>
-              <span class="ms-auto">
-                <span class="right-icon">
-                  <i class="bi bi-chevron-down"></i>
-                </span>
-              </span>
-            </a>
-            <div class="collapse" id="support">
-              <ul class="navbar-nav ps-3">
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Support Request</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Completed Support</span>
-                  </a>
-                </li>
-
-              </ul>
-            </div>
-          </li>
-
-          <!--  Notice board-->
-          <li class="sidebar-list">
-            <a class="nav-link px-3 sidebar-link" data-name="notice" data-bs-toggle="collapse" href="#notice">
-              <span class="me-2"><i class="bi bi-clipboard-check"></i></span>
-              <span>Notice Board</span>
-              <span class="ms-auto">
-                <span class="right-icon">
-                  <i class="bi bi-chevron-down"></i>
-                </span>
-              </span>
-            </a>
-            <div class="collapse" id="notice">
-              <ul class="navbar-nav ps-3">
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Add Notice</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>Today Notice</span>
-                  </a>
-                </li>
-                <li class="sidebar-sub-list">
-                  <a href="#" class="nav-link px-3 sidebar-sub-link">
-                    <i class="bi bi-dash "></i>
-                    <span>All Notice</span>
-                  </a>
-                </li>
-
-              </ul>
-            </div>
-          </li>
-
           <!--  Setting-->
           <li class="sidebar-list">
             <a class="nav-link px-3 sidebar-link" data-name="setting" data-bs-toggle="collapse" href="#Setting">
@@ -817,14 +694,14 @@
                 <li class="sidebar-sub-list">
                   <a href="#" class="nav-link px-3 sidebar-sub-link">
                     <i class="bi bi-dash "></i>
-                    <span>Frontend Section</span>
+                    <span>Profile settings</span>
                   </a>
                 </li>
 
                 <li class="sidebar-sub-list">
                   <a href="./form.html" class="nav-link px-3 sidebar-sub-link">
                     <i class="bi bi-dash "></i>
-                    <span>Form design</span>
+                    <span>Shop settings</span>
                   </a>
                 </li>
 
