@@ -854,162 +854,55 @@
 
 
       <!--####################### total chat ##################  -->
-      <div class="container m-3">
-        <form class="row g-3 needs-validation" novalidate="">
-            <div class="col-md-12">
-                
-              <div class="form-outline">
-                <div class="row">
-                    <div class="col-6 text-end">
-                        <label for="validationCustom01" class="form-label">First name*</label>
-                        <div class="valid-feedback">Looks good!</div>
-                    </div>
-                    <div class="col-6">
-                        <input type="text" class="form-control rounded-3" id="validationCustom01" value="Mark" required="">
-                    </div>                    
-                </div>
-              </div>
+      <div class="p-4 border-top">
+        <form data-select2-id="15">
+            <div class="mb-3">
+                <label class="form-label" for="productname">Product Name</label>
+                <input id="productname" name="productname" type="text" class="form-control" placeholder="Enter your Product Name">
             </div>
-            <div class="col-12">
-              <div class="form-outline">
-                  <div class="row">
-                      <div class="col-6 text-end">
-                        <label for="validationCustom02" class="form-label">Last name*</label>
-                        <div class="valid-feedback">Looks good!</div>
-                      </div>
-                      <div class="col-6">
-                        <input type="text" class="form-control" id="validationCustom02" value="Otto" required="">
-                      </div>
-                  </div>
-              </div>
-            </div>
-            <div class="input-group mb-3">
-               <div class="col-12">
-                   <div class="row">
-                       <div class="col-6 text-end">
-                        <label for="validationCustom02" class="form-label">Username*</label>
-                        <div class="valid-feedback">Looks good!</div>
-                       </div>
-                       <div class="col-6">
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                       </div>
-                   </div>
-               </div>
-                
-              </div>
-              <div class="col-12">
-                  <div class="row">
-                      <div class="col-6 text-end">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                      </div>
-                      <div class="col-6">
-                        <div class="mb-3">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-12">
-                  <div class="row">
-                      <div class="col-6 text-end">
-                        <label for="exampleFormControlTextarea1" class="form-label">select</label>
-                      </div>
-                      <div class="col-6">
-                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                            <option selected="">Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                      </div>
-                  </div>
-              </div>
-          <div class="col-12">
-              <div class="row">
-                  <div class="col-6 text-end">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        Default checkbox
-                      </label>
-                  </div>
-                  <div class="col-6">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-12">
-              <div class="row">
-                  <div class="col-6 text-end">
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Checked checkbox
-                      </label>
-                  </div>
-                  <div class="col-6">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-12">
-              <div class="row">
-                  <div class="col-6 text-end">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        Default radio
-                      </label>
-                  </div>
-                  <div class="col-6">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-12">
-              <div class="row">
-                  <div class="col-6 text-end">
-                    <label for="customRange1" class="form-label">Example range</label>
-                  </div>
-                  <div class="col-6">
-                    <input type="range" class="form-range" id="customRange1">
-                  </div>
-              </div>
-          </div>
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-6 text-end">
-                        <label class="form-check-label" for="invalidCheck">
-                            Agree to terms and conditions
-                          </label>
-                          <div class="invalid-feedback">You must agree before submitting.</div>
-                    </div>
-                    <div class="col-6">
-                        <div class="form-check">
-                            <input class="form-check-input input-group" type="checkbox" value="" id="invalidCheck" required="">
+            <div class="row">
+                <div class="col-lg-4">
+                    
+                    <div class="mb-3">
+                        <label class="form-label" for="manufacturername">Manufacturer Name</label>
+                        <input id="manufacturername" name="manufacturername" type="text" class="form-control" placeholder="Enter your Manufacturer Name">
                     </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-6 text-end">
-                        <label class="form-check-label" for="invalidCheck">
-                           Plaese Select A file 
-                          </label>
+                <div class="col-lg-4">
+                    
+                    <div class="mb-3">
+                        <label class="form-label" for="manufacturerbrand">Manufacturer Brand</label>
+                        <input id="manufacturerbrand" name="manufacturerbrand" type="text" class="form-control" placeholder="Enter your Manufacturer Brand">
                     </div>
-                    <div class="col-6">
-                        <div class="file-chose">
-                            <!-- <label class="input-group-text" for="inputGroupFile01">Upload</label> -->
-                            <input class="rounded-3" type="file">
-                          </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mb-3">
+                        <label class="form-label" for="price">Price</label>
+                        <input id="price" name="price" type="text" class="form-control" placeholder="Enter your Price">
                     </div>
                 </div>
             </div>
-            <div class="col-6 ms-auto ">
-              <button class="btn btn-info submit-button" type="submit">Submit form</button>
+            <div class="row" data-select2-id="14">
+                <div class="col-md-6" data-select2-id="29">
+                    <div class="mb-3" data-select2-id="28">
+                        <label class="form-label">Category</label>
+                        <select class="form-control select2 select2-hidden-accessible" data-select2-id="1" tabindex="-1" aria-hidden="true">
+                            <option data-select2-id="3">Select</option>
+                            <option value="EL" data-select2-id="30">Electronic</option>
+                            <option value="FA" data-select2-id="31">Fashion</option>
+                            <option value="FI" data-select2-id="32">Fitness</option>
+                        </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="2" style="width: 494.5px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-dksn-container"><span class="select2-selection__rendered" id="select2-dksn-container" role="textbox" aria-readonly="true" title="Select">Select</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                    </div>
+                </div>
+                </div>
             </div>
-          </form>
+
+            <div class="mb-0">
+                <label class="form-label" for="productdesc">Product Description</label>
+                <textarea class="form-control" id="productdesc" rows="4" placeholder="Enter your Product Description"></textarea>
+            </div>
+            <button class="btn btn-info submit-button my-2 rounded" type="submit">Submit form</button>
+        </form>
     </div>
       <div class="row my-5 g-5">
 
